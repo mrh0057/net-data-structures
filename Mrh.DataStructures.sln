@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mrh.DataStructures", "Mrh.DataStructures\Mrh.DataStructures.csproj", "{7C04B49B-8788-4FF5-A3CD-65007F05FB80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mrh.DataStructures.Test", "Mrh.TaskOrganizer.DataStructures.Test\Mrh.DataStructures.Test.csproj", "{5E87F078-3E93-44BC-BA3A-CFA2EE5B6309}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mrh.DataStructures.Test", "Mrh.DataStructures.Test\Mrh.DataStructures.Test.csproj", "{5E87F078-3E93-44BC-BA3A-CFA2EE5B6309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
