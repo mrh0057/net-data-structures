@@ -29,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -40,10 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Buffer\IRingBuffer.cs" />
+    <Compile Include="Buffer\IRingBufferByte.cs" />
     <Compile Include="Buffer\RingBuffer.cs" />
-    <Compile Include="Buffer\RingBufferBase.cs" />
-    <Compile Include="Buffer\RingBufferMemoryMap.cs" />
+    <Compile Include="Buffer\RingBufferByte.cs" />
+    <Compile Include="Buffer\RingBufferByteBase.cs" />
+    <Compile Include="Buffer\RingBufferByteMemoryMap.cs" />
     <Compile Include="File\MessageLog.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />

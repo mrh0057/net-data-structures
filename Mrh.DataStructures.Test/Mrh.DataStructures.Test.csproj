@@ -28,6 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
@@ -45,8 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Buffer\RingBufferMemoryMappedTest.cs" />
-    <Compile Include="Buffer\RingbufferTest.cs" />
+    <Compile Include="Buffer\RingBufferByteMemoryMappedTest.cs" />
+    <Compile Include="Buffer\RingbufferByteTest.cs" />
+    <Compile Include="Buffer\RingBufferTest.cs" />
     <Compile Include="File\MessageLogTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
